@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+int main(){
+  char huruf[40];
+
+  cout << "Masukan sembarang kata = ";
+  cin >> huruf;
+  cout << "Panjang karakternya adalah = ";
+  cout << strlen(huruf);
+
+  getchar();
+}
